@@ -65,7 +65,7 @@ const Cart = (props) => {
         >
           {cartItems}
           <Card>
-            <Typography>Total amount</Typography>
+            <Typography>Total Amount</Typography>
             <Typography>{totalAmount}</Typography>
           </Card>
           <br />
