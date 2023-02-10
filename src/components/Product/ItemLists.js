@@ -24,12 +24,12 @@ const ItemLists = (props) => {
   };
 
   return (
-    <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
+    <Card sx={{ height: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
       <CardActionArea>
         <CardContent>
           <CardMedia
             component="img"
-            height="200"
+            height="250"
             image={props.image}
             alt={props.name}
           >

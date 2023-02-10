@@ -20,7 +20,7 @@ const ItemsForm = (props) => {
       <form onSubmit={submitHandler}>
         <InputField
           ref={amountInputRef}
-          label="amount"
+          // label="amount"
           input={{
             id: "amount" + props.id,
             type: "number",
@@ -32,8 +32,9 @@ const ItemsForm = (props) => {
         />
         <br />
         <Stack spacing={2} direction="row">
-          <Button type="submit">Add to Cart</Button>
+          <Button type="submit" variant="contained">Add to Cart</Button>
         </Stack>
+        <br />
       </form>
     </>
   );

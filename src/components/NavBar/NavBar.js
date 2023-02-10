@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, AppBar, Toolbar, Badge } from "@mui/material";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import { useContext } from "react";
 import CartDetails from "../../shop/CartDetails";
 
@@ -18,10 +18,10 @@ const NavBar = (props) => {
                   Sorelli  
                 </Typography>
 
-                <Badge badgeContent={numberOfCartItems} color="primary">
-                <ShoppingCartOutlinedIcon onClick={props.onShowCart}>
+                <Badge badgeContent={numberOfCartItems} color="error">
+                <ShoppingCartRoundedIcon onClick={props.onShowCart}>
               Cart
-            </ShoppingCartOutlinedIcon>
+            </ShoppingCartRoundedIcon>
                 </Badge>
             </Toolbar>
         </AppBar>

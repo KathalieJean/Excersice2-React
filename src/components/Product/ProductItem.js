@@ -6,19 +6,19 @@ export const Product_Items = [
   {
     id: 1,
     image: "../../assets/ButterFly.png",
-    name: "ButterFly Necklace",
+    name: "Butterfly Necklace",
     price: 499,
   },
   {
     id: 2,
-    image: "../../assets/HeartDiamond.png",
-    name: "Heart Diamond Necklace",
+    image: "../../assets/Diamond Heart.png",
+    name: "DiaHeart Necklace",
     price: 999,
   },
   {
     id: 3,
     image: "../../assets/StarMoon.png",
-    name: "Star Moon Necklace",
+    name: "StarMoon Necklace",
     price: 499,
   }
 ];
